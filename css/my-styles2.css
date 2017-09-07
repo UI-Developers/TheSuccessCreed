@@ -1,0 +1,288 @@
+
+/*******************************
+HOME PAGE
+*******************************/
+.photo {
+	border: 1px solid #333;
+	padding: 1px;
+	margin-top: 1.875em;
+}
+.latest-blog {
+	text-align: center;
+	margin-top: 0.750em;
+	margin-bottom: 0;
+	font-size: 1.6em;
+}
+
+
+
+/* Layout
+================================ */
+
+h3, h4 {
+	font-size: 1.29em;
+	color: #000;
+	margin-bottom: 1em;
+	margin-top: 0em;
+	font-weight: bold;
+}
+p {
+	line-height: 1.7;
+	font-size: 1em;
+	font-weight: 200;
+}
+.lead {
+	margin-bottom: 0.750em; 
+	margin-top: 0.625em;
+}
+
+hr {
+	margin-top: 1.875em;
+	margin-bottom: 3.125em;
+}
+.orbit-container {
+	text-align: left;
+	padding: 0em;
+	margin: 1.250em 0 -1.250em 0;
+	background: #fff;
+}
+.button-group,
+.orbit-bullets {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.orbit-caption {
+	text-align: center;
+}
+
+/* Top Bar & Logo
+
+================================ */
+
+.logo {
+	margin-top: -0.625em;
+	padding-top: 1.250em;
+}
+.contain-to-grid {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.top-bar-section li a:not(.button) {
+	padding: 0px 25px;
+}
+
+
+/* Footer
+================================ */
+#main-footer {
+	font-size: .95em;
+}
+.link-list {
+	list-style-type: none;
+	font-size: .8em;
+	line-height: 1.8;
+	margin: 0;
+	padding: 0;
+}
+.copyright {
+	opacity: .6;
+	font-size: .9em;
+}
+.main-footer a {
+	color: #a6afb2;
+}
+.link-list .heading {
+	font-weight: bold;
+	margin-bottom: 0.625em;
+}
+.main-footer {
+	margin-bottom: 5em;
+}
+.footer-statement {
+	color: #A6AFB2;
+	font-size: .8em;
+}
+
+
+/*******************************
+ABOUT PAGE
+*******************************/
+
+
+
+
+/*******************************
+MASTER YOUR MIND PAGE
+*******************************/
+
+
+
+
+/*******************************
+Blog Page
+*******************************/
+.photo-blog {
+	border: 1px solid #333;
+	padding: 1px;
+	margin-top: 0;
+}
+.hr-blog {
+	margin-top: 3.525em;
+	margin-bottom: 3.205em;
+}
+
+
+
+
+/*******************************
+CONTACT PAGE
+*******************************/
+
+.contact-info {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.9em;
+}
+.contact-info a {
+	display: block;
+	min-height: 1.250em;
+	background-repeat: no-repeat;
+	background-size: 1.250em 1.250em;
+	padding: 0 0 0 1.875em;
+	margin: 0 0 0.625em;
+}
+.contact-info li.phone a {
+	background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a {
+	background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a {
+	background-image: url('../img/twitter.png');
+}
+/* Flexible iFrame */
+
+.Flexible-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 1.875em;
+    margin-bottom: 1.875em;
+    height: 0;
+    overflow: hidden;
+}
+
+.Flexible-container iframe,   
+.Flexible-container object,  
+.Flexible-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/* Media Queries
+================================ */
+
+@media (max-width: 1024px) {
+    body {
+    	padding-right: 2.500em;
+    	padding-left: 2.500em;
+    }
+    .link-list .heading {
+    	margin-top: 1.250em;
+    }
+}	
+
+
+@media (max-width: 768px) {
+	
+	hr {
+	margin-top: 1.950em;
+	margin-bottom: 2.500em;
+    }
+    .hr-blog {
+	margin-top: 2.500em;
+	margin-bottom: 2.500em;
+    }
+    .photo-blog {
+    	margin-bottom: .5em;
+    }
+	.success_creed_logo {
+		width: 8.750em;
+		margin-bottom: 0.625em;
+	}
+	.contain-to-grid {
+		margin-top: 0.500rem;
+		margin-bottom: 0.825rem;
+	}
+	.top-bar {
+		line-height: 2.625rem;
+		height: 2.625rem;
+	}
+	.top-bar-section li a:not(.button) {
+	    line-height: 2.625rem;
+    }
+	.link-list {
+		margin-top: 0px;
+		float: left;
+	    margin-right: 2.000em;
+	}
+	#main-footer {
+    	margin-top: 0em;
+	    margin-bottom: 5.000em;
+    }
+    
+    #main-footer ul {
+    	font-size: 0.813em;
+    }
+
+    p, .core-beliefs {
+	  font-size: 0.875em;
+	  margin-bottom: 0.500em;
+    }
+    body {
+    	padding-right: 1.250em;
+    	padding-left: 1.250em;
+    }
+
+    h3, h4 {
+	  font-size: 1em;
+	  font-weight: bold;
+	  margin-bottom: 0.625em;
+	  margin-top: 0em;
+    }
+    .latest-blog {
+      font-size: 1.2em;
+      margin-top: 0.3em;
+      margin-bottom: -.5em;
+    }
+    .link-list .heading {
+	  margin-top: 1.250em;
+    }
+    .orbit-container .orbit-slides-container > * .orbit-caption {
+    	padding: 0.500em 0.875em;
+    }
+    .orbit-container .orbit-slides-container {
+    	margin-bottom: 2em;
+    }
+
+    .orbit-container .orbit-prev > span, .orbit-container .orbit-next > span {
+    margin-top: -37px;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .orbit-container {
+  	  display: none;
+  }
+
